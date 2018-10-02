@@ -45,8 +45,8 @@ tick() {
       <div className="container">
         <h1>What time is it?</h1>
         <h2>{this.state.date.toLocaleTimeString()}.</h2>
-        <button onClick={this.stopTimer}>Stop</button>
-        <button onClick={this.startTimer}>Start</button>
+        <button onClick={this.stopTimer} className="button stop-button">Stop</button>
+        <button onClick={this.startTimer} className="button start-button">Start</button>
         </div>
       </div>
     );
