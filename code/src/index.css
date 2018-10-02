@@ -2,4 +2,39 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #CEB5A7;
 }
+
+
+h1 {
+  padding-top: 250px;
+  margin: 15px;
+  font-size: 50px;
+  color: white;
+}
+
+
+h2 {
+   font-size: 45px;
+   padding: 10px;
+   color: white;
+ }
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+ }
+
+ button {
+    border: none;
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    margin: 5px 0px;
+    color: #50474D;
+    background-color: #F4F6DC;
+    flex-flow: row-reverse;
+  }
